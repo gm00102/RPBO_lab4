@@ -1,0 +1,38 @@
+﻿  QueueBasedOnUnidirectionalLinkedList.cpp
+C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(199,26): warning C4018: >=: несоответствие типов со знаком и без знака
+  C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(199,26):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(277,44):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "QueueBasedOnUnidirectionalLinkedList<int>"
+  	C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(198,6):
+  	во время компиляции функции-члена класс шаблон "int QueueBasedOnUnidirectionalLinkedList<int>::RemoveAt(int)"
+  		C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(280,29):
+  		см. первую ссылку на "QueueBasedOnUnidirectionalLinkedList<int>::RemoveAt" в "main"
+  
+C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(161,26): warning C4018: >: несоответствие типов со знаком и без знака
+  C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(161,26):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(160,7):
+  	во время компиляции функции-члена класс шаблон "void QueueBasedOnUnidirectionalLinkedList<int>::InsertAt(const T &,int)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(278,17):
+  		см. первую ссылку на "QueueBasedOnUnidirectionalLinkedList<int>::InsertAt" в "main"
+  
+C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(116,13): warning C4018: >=: несоответствие типов со знаком и без знака
+  C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(116,13):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(113,11):
+  	во время компиляции функции-члена класс шаблон "Node<T> *QueueBasedOnUnidirectionalLinkedList<T>::getAt(int)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(64,17):
+  		см. первую ссылку на "QueueBasedOnUnidirectionalLinkedList<int>::getAt" в "QueueBasedOnUnidirectionalLinkedList<int>::operator []"
+  		C:\Users\Пользователь\Desktop\rbpo lab4\QueueBasedOnUnidirectionalLinkedList.cpp(279,20):
+  		см. первую ссылку на "QueueBasedOnUnidirectionalLinkedList<int>::operator []" в "main"
+  
+  rbpo lab4.vcxproj -> C:\Users\Пользователь\Desktop\rbpo lab4\x64\Debug\rbpo lab4.exe
